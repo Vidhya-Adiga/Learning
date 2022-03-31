@@ -1,0 +1,18 @@
+git init ( It creates new git repo or converts unversioned directory to versioned)
+git status ( to give status of changes)
+git add . (It adds files to stage area)
+git commit -m "Hy added a new file" (It commits the changes which in are in stage)
+git log (To get the history to commits)
+git reset <commit Id> (it is going to delete all commits above the mentioned commit ID)
+git stash ( to add files in the back stage)
+git stash pop ( to get all changes present at stash to stage)
+git stash clear ( to remove all changes in stash)
+git remote add origin <repo url> (to add remote connection to our repo)
+git remote -v ( to give all remote connections mapped to existing directory/project)
+git push origin master (to push all our changes to remote url/repo)
+git branch <branch name> (to create new branch)
+git checkout <branch name> (to point head to new branch rather than  master and all the changes will be present in new branch not in master as head is poining at new branch)
+git merge <branch name> (to merge new branch changes to main)
+git clone <url>
+fork is used get code from other repos which we don't have access to edit them.
+git remote add upstream <url> (from where we have forked the code)
